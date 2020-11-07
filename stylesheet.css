@@ -1,0 +1,117 @@
+/* Reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+.lala{
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    font-size: 30px;
+}
+
+header{
+    background-color: #808080;
+    color: #ffffff;
+    height: 90px;
+}
+
+.header-logo{
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-nav li{
+    float: left;
+    padding: 35px 20px;
+}
+
+/* Main / Content */
+main{
+    padding: 100px 80px;
+}
+
+.main-container h1{
+    font-size: 80px;
+}
+.main-container span{
+    color: #d40909;
+}
+.main-container h2{
+    font-size: 45px;
+}
+/* bagian contents */
+main{
+    padding: 100px 80px;
+}
+
+.main-container h1{
+    font-size: 95px;
+}
+.main-container span{
+    color: #d40909;
+}
+.main-container h2{
+    font-size: 60px;
+}
+/* bagian contents */
+.contents{
+    height: 250px;
+    margin-top: 100px;
+}
+.section-title{
+    border-bottom: 2px solid red;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.kalimat {
+    color: red;
+    font-size: 17px;
+}
+
+.gambar{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width:200px ;
+    height:300px;
+}
+
+/* bagian contact*/
+.contact{
+    padding-top: 100px;
+
+}
+.poto{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width:50px ;
+    height:50px;
+}
+
+.text1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width : 1200px){
+    .main-container h1 {
+        color: purple;
+    }
+}
